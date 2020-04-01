@@ -1,0 +1,79 @@
+﻿
+implement kariRastasCode
+    open core
+
+clauses
+    savePictureToFile(PIC,FileName,OEnc):-
+        Enc = string::toUpperCase(OEnc),
+        Enc in ["JPEG","BMP","TIFF","GIF","PNG","WMF","EMF","ICON"],!,
+        GdiPlusToken = gdiplus::startup(),
+            gpPictToImage(PIC, Image),
+            ImageClone = Image:clone(),
+            Image : dispose(),
+            gdiplus :: imageCodecInfo(JpegId, _, _, _, _, _, _, _, _, _, _, _, _) = getEncoder(Enc, gdiplus::imageEncoders),
+            ImageClone : saveToFile(FileName, JpegId, uncheckedConvert(gdiplus::encoderParameters, null)),
+            ImageClone : dispose(),
+        gdiplus :: shutdown(GdiPlusToken),
+        memory::garbageCollect().
+
+    savePictureToFile(_,_,_).
+
+clauses
+    savePictureToFileJPEG(PIC,FileName):-
+        GdiPlusToken = gdiplus::startup(),
+            gpPictToImage(PIC, Image),
+            gdiplus :: imageCodecInfo(JpegId, _, _, _, _, _, _, _, _, _, _, _, _) = getEncoder("JPEG", gdiplus::imageEncoders),
+            Image : saveToFile(FileName, JpegId, uncheckedConvert(gdiplus::encoderParameters, null)),
+            Image : dispose(),
+        gdiplus :: shutdown(GdiPlusToken),
+        _ = vpi::processEvents(),
+        memory::garbageCollect().
+
+class predicates
+   getEncoder : (string FormatDescription, gdiplus::imageCodecInfo* EncoderList) -> gdiplus::imageCodecInfo Encoder.
+
+clauses
+    getEncoder(FormatDescription, [Encoder|_]) = Encoder :-
+        gdiplus::imageCodecInfo(_, _, _, _, FormatDescription, _, _, _, _, _, _, _, _) = Encoder,
+        !.
+    getEncoder(FormatDescription, [_|Rest]) = getEncoder(FormatDescription, Rest).
+    getEncoder(_FormatDescription, []) = uncheckedConvert(gdiplus::imageCodecInfo, 0) :-  % TODO 2017-07-30 this is a shabby kludge, clean it up
+            vpiCommonDialogs::error( predicate_fullname(),"FAILED").
+%        common_exception::raise_errorf( classInfo, predicate_name(), "Unsupported image format '%'", FormatDescription).
+%        exception::raise_exception(classInfo(), predicate_name(), "Unsupported image format '%'", FormatDescription).
+ class predicates
+     gpPictToImage : ( vpiDomains::picture Pict [in], image Image [out]).
+
+ clauses
+    gpPictToImage(Pict, Image):-
+        PictBin = vpi::pictToBin(Pict),
+        MemSize = binary::getSize(PictBin),
+        HGlobal = memory_native::globalAlloc(memory_native::gmem_GHND, convert(unsigned, MemSize)),
+        % GHND = GMEM_MOVEABLE + GMEM_ZEROINIT = 0x0002 + 0x0040
+        Pointer = memory_native::globalLock(HGlobal),
+        PointerBin = uncheckedConvert(pointer, PictBin),
+        memory::copy(Pointer, PointerBin, MemSize),
+        _ = iStream_api::createStreamOnHGlobal(HGlobal, 1, Stream),
+        Image = image::createFromStream(Stream),
+        _ = memory_native::globalUnlock(HGlobal).
+
+clauses
+    pictureFileToStringForHtml(PictureFile,Type,NameText,Width,Height) =PicStr:-
+        file::existFile(PictureFile),
+        BIN = cryptography::base64_encode(file::readBinary(PictureFile)),
+        PicStr = string::format("\n<img src=\"data:image/%;base64,%s\" alt=\"%s\" width=\"%\" height=\"%\">\n",
+                                            Type,
+                                            BIN,
+                                            NameText,
+                                            Width,
+                                            Height),!.
+
+    pictureFileToStringForHtml(_PictureFile,_Type,_NameText,_Width,_Height) ="".
+
+clauses
+    pictureToStringForHtml(Pict,NameText,Width,Height) =PicStr:-
+        savePictureToFile(Pict,"workpic.jpg","jpeg"),
+        pictureFileToStringForHtml("workpic.jpg","jpeg",NameText,Width,Height) =PicStr.
+
+
+end implement kariRastasCode

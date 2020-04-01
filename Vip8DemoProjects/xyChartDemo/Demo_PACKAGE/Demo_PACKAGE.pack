@@ -1,0 +1,23 @@
+﻿#requires @"Demo_PACKAGE\DemoForm.frm"
+
+% own pack
+#include @"Demo_PACKAGE\Demo_PACKAGE.ph"
+
+% privately used packages
+#include @"pfc\fileSystem\fileSystem.ph"
+#include @"pfc\vpi\vpiCommonDialogs\vpiCommonDialogs.ph"
+#include @"Chart_PACK\Chart_PACK.ph"
+#include @"pfc\core.ph"
+#include @"pfc\gui\gdiplus\gdiplus.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\vpi\vpiDomains\vpidomains.ph"
+#include @"pfc\windowsApi\gdiplus_api\gdiplus_api.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"Demo_PACKAGE\DemoForm.pro"
+

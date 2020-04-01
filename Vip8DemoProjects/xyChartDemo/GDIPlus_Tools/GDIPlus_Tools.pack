@@ -1,0 +1,17 @@
+﻿#include @"GDIPlus_Tools\GDIPlus_Tools.ph"
+
+% privately used packages
+#include @"pfc\vpi\vpiCommonDialogs\vpiCommonDialogs.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\list\list.ph"
+#include @"pfc\stream\stream.ph"
+#include @"pfc\gui\gdiplus\gdiplus.ph"
+#include @"pfc\core.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"GDIPlus_Tools\gdipTools.pro"

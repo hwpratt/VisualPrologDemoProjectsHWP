@@ -1,0 +1,37 @@
+﻿% own pack
+#include @"TaskWindow\TaskWindow.ph"
+
+% privately used packages
+#include @"pfc\vpi\vpiCommonDialogs\vpiCommonDialogs.ph"
+#include @"main.ph"
+#include @"pfc\collection\M\varM\varM.ph"
+#include @"pfc\gui\controls\groupBox\groupBox.ph"
+#include @"pfc\gui\controls\iconControl\iconControl.ph"
+#include @"pfc\gui\controls\versionControl\versionControl.ph"
+#include @"GDIPlus_Tools\GDIPlus_Tools.ph"
+#include @"pfc\windowsApi\Shell_api\Shell_api.ph"
+#include @"pfc\application\Exe\exe.ph"
+#include @"Chart_PACK\Chart_PACK.ph"
+#include @"Demo_PACKAGE\AppData_to_Chart\AppData_to_Chart.ph"
+#include @"Demo_PACKAGE\Demo_PACKAGE.ph"
+#include @"pfc\core.ph"
+#include @"pfc\fileSystem\filesystem.ph"
+#include @"pfc\gui\controls\controls.ph"
+#include @"pfc\gui\controls\messageControl\messagecontrol.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\resourceIdentifiers.ph"
+#include @"pfc\stream\stream.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\vpi\vpiDomains\vpidomains.ph"
+#include @"pfc\vpi\vpiToolbar\vpitoolbar.ph"
+#include @"TaskWindow\Toolbars\Toolbars.ph"
+
+% private interfaces
+
+% private classes
+#include @"TaskWindow\AboutDialog.cl"
+
+% implementations
+#include @"TaskWindow\AboutDialog.pro"
+#include @"TaskWindow\TaskWindow.pro"
+

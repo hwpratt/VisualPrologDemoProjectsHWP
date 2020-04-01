@@ -1,0 +1,50 @@
+﻿#requires @"Chart_PACK\chartPropertyEditor.dlg"
+#requires @"Chart_PACK\chartDecorationDisplay.frm"
+
+% own pack
+#include @"Chart_PACK\Chart_PACK.ph"
+
+% privately used packages
+#include @"pfc\application\Exe\exe.ph"
+#include @"GDIPlus_Tools\GDIPlus_Tools.ph"
+#include @"pfc\collection\M\varM\varM.ph"
+#include @"pfc\gui\controls\groupBox\groupBox.ph"
+#include @"pfc\gui\controls\textControl\textControl.ph"
+#include @"pfc\gui\controls\checkButton\checkButton.ph"
+#include @"pfc\gui\controls\editControl\editControl.ph"
+#include @"pfc\vpi\vpiCommonDialogs\vpiCommonDialogs.ph"
+#include @"pfc\application\useExe\useexe.ph"
+#include @"pfc\binary\binary.ph"
+#include @"pfc\core.ph"
+#include @"pfc\cryptography\cryptography.ph"
+#include @"pfc\fileSystem\filesystem.ph"
+#include @"pfc\gui\controls\controls.ph"
+#include @"pfc\gui\gdiplus\gdiplus.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\list\list.ph"
+#include @"pfc\math\math.ph"
+#include @"pfc\memory\memory.ph"
+#include @"pfc\std\std.ph"
+#include @"pfc\stream\stream.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\vpi\vpiDomains\vpidomains.ph"
+#include @"pfc\windowsApi\com_api\iStream_api\iStream_api.ph"
+#include @"pfc\windowsApi\gdiplus_api\gdiplus_api.ph"
+#include @"pfc\windowsApi\memory_api\memory_api.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"Chart_PACK\ScreenCapture.pro"
+#include @"Chart_PACK\Chart.pro"
+#include @"Chart_PACK\Chart_Core.pro"
+#include @"Chart_PACK\chartCalculations.pro"
+#include @"Chart_PACK\chartDataEditor.pro"
+#include @"Chart_PACK\chartDecoration.pro"
+#include @"Chart_PACK\chartDecorationDisplay.pro"
+#include @"Chart_PACK\chartIO.pro"
+#include @"Chart_PACK\chartPropertyEditor.pro"
+

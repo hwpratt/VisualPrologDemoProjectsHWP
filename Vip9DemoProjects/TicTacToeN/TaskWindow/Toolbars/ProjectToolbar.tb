@@ -1,0 +1,21 @@
+﻿
+clauses
+main_extframe("idt_35").
+tmpSL("idt_35",s("AKO",0,13,el([e("tbar","PROJECT.FKB")]),n,sl([]),0,0,0)).
+tmpSL("idt_35",s("ftb",1,1,st("ftb(tb_top,12632256,[])"),d,sl([]),0,12,2)).
+tmpSL("idt_35",s("pref",0,1,st("id_tb_1"),m("pu",""),sl([]),0,0,1)).
+tmpSL("idt_35",s("name",0,1,st("ProjectToolbar"),m("cr","class"),sl([]),3,0,1)).
+tmpSL("idt_35",s("hndlr",0,1,n,m("cr","pref"),sl([]),0,0,1)).
+tmpSL("idt_35",s("rct",0,1,st("rct(691,120,1307,180)"),m("pu",""),sl([]),0,0,1)).
+tmpSL("idt_35",s("mod",0,1,st("TaskWindow\\Toolbars\\ProjectToolbar.pro"),m("pu",""),sl([]),0,0,1)).
+tmpSL("idt_35",s("expattr",0,1,st("expattr4(1,0,0,0,2,2)"),m("pu",""),sl([]),0,0,1)).
+tmpSL("idt_35",s("upd_dt",0,1,st("08:35:01-30.3.2020"),d,sl([]),0,9,1)).
+tmpSL("idt_35",s("efile",0,1,st("TaskWindow\\Toolbars\\ProjectToolbar.tb"),n,st("1"),0,0,1)).
+tbItem(tb_fctrl(6,"id_file_exit",pushb,"exitApp","UndoBitmap","UndoBitmap","Exit application;Exit application",1,1)).
+tbItem(separator).
+tbItem(tb_fctrl(2,"id_game_play_3",pushb,"game3","UndoBitmap","UndoBitmap","Play a 3x3 game;Play a 3x3 game of TicTacToe",1,1)).
+tbItem(tb_fctrl(3,"id_game_play_5",pushb,"game5","UndoBitmap","UndoBitmap","Play a 5x5 game;Play a 5x5 game of TicTacToe",1,1)).
+tbItem(tb_fctrl(4,"id_game_play_7",pushb,"game7","UndoBitmap","UndoBitmap","Play a 7x7 game;Play a 7x7 game of TicTacToe",1,1)).
+tbItem(tb_fctrl(5,"id_game_play_n",pushb,"gameN","UndoBitmap","UndoBitmap","Play a custom size game;Play a custom size game of  TicTacToe",1,1)).
+tbItem(separator).
+tbItem(tb_fctrl(1,"id_help_about",pushb,"HelpBitmap","HelpBitmap","HelpBitmap","About this program;About this program",1,1)).

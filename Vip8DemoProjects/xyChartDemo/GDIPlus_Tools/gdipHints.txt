@@ -1,0 +1,71 @@
+﻿
+From: https://docs.microsoft.com/en-us/windows/desktop/gdiplus/-gdiplus-using-image-encoders-and-decoders-use
+
+Windows GDI+ provides the Image class and the Bitmap class for storing images in memory and manipulating images in memory.
+
+GDI+ WRITES images to disk files with the help of image ENcoders
+and loads (READS) images from disk files with the help of image DEcoders.
+
+An encoder translates the data in an Image or Bitmap object into a designated disk file format.
+A decoder translates the data in a disk file to the format required by the Image and Bitmap objects.
+
+GDI+ has built-in encoders and decoders that support the following file types:
+
+    BMP
+    GIF
+    JPEG
+    PNG
+    TIFF
+
+GDI+ also has built-in decoders that support the following file types:
+
+    WMF
+    EMF
+    ICON
+
+
+/******************************************************************************
+IMAGE DECODERS:
+CODEC Names     Format Descriptions File Extensions             MIME Types
+Built-in BMP Codec  BMP             *.BMP;*.DIB;*.RLE           image/bmp
+Built-in JPEG Codec JPEG            *.JPG;*.JPEG;*.JPE;*.JFIF   image/jpeg
+Built-in GIF Codec  GIF             *.GIF                       image/gif
+Built-in EMF Codec  EMF             *.EMF                       image/x-emf
+Built-in WMF Codec  WMF             *.WMF                       image/x-wmf
+Built-in TIFF Codec TIFF            *.TIF;*.TIFF                image/tiff
+Built-in PNG Codec  PNG             *.PNG                       image/png
+Built-in ICO Codec  ICO             *.ICO                       image/x-icon
+
+
+
+IMAGE ENCODERS:
+CODEC Names     Format Descriptions File Extensions             MIME Types
+Built-in BMP Codec  BMP             *.BMP;*.DIB;*.RLE           image/bmp
+Built-in JPEG Codec JPEG            *.JPG;*.JPEG;*.JPE;*.JFIF   image/jpeg
+Built-in GIF Codec  GIF             *.GIF                       image/gif
+Built-in TIFF Codec TIFF            *.TIF;*.TIFF                image/tiff
+Built-in PNG Codec  PNG             *.PNG                       image/png
+
+imageCodecInfo = imageCodecInfo(
+        nativeGuid Id,
+        nativeGuid FormatId,
+        string CodecName,
+        string DllName,
+        string FormatDescription,
+        string FileNameExtension,
+        string MimeType,
+        unsigned Flags,
+        unsigned Version,
+        unsigned SigCount,
+        unsigned SigSize,
+        pointer SigPattern_ByteArray,
+        pointer SigMask_ByteArray).
+
+See this for more info:
+Graphics Programming with GDI+ by Mahesh Chand
+            Addison Wesley
+            Microsoft .NET Development Series
+            2004
+
+https://books.google.com/books?id=ElAaTGP__U0C&pg=PA384&lpg=PA384&dq=gdiplus+image+encode+decode&source=bl&ots=AjzZU9fYwG&sig=s_rjJod4HTi1iZ9WUzAdqRWzDpk&hl=en&sa=X&ved=0ahUKEwjenfSb9LvVAhWK34MKHcbOBYQQ6AEITzAG#v=onepage&q=gdiplus%20image%20encode%20decode&f=false
+

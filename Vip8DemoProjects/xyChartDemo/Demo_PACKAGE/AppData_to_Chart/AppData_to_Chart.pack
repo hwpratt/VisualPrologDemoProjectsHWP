@@ -1,0 +1,12 @@
+﻿#include @"Demo_PACKAGE\AppData_to_Chart\AppData_to_Chart.ph"
+
+% privately used packages
+#include @"Chart_PACK\Chart_PACK.ph"
+#include @"pfc\core.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"Demo_PACKAGE\AppData_to_Chart\AppData_to_Chart.pro"

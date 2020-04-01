@@ -1,0 +1,31 @@
+﻿% own pack
+#include @"game_PACKAGE\game_PACKAGE.ph"
+
+% privately used packages
+#include @"pfc\collection\M\array2M\array2M.ph"
+#include @"pfc\core.ph"
+#include @"pfc\exception\exception.ph"
+#include @"pfc\gui\controls\button\button.ph"
+#include @"pfc\gui\controls\editControl\editControl.ph"
+#include @"pfc\gui\controls\iconControl\iconControl.ph"
+#include @"pfc\gui\controls\integerControl\integerControl.ph"
+#include @"pfc\gui\controls\textControl\textControl.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\gui\guiSupport\guiSupport.ph"
+#include @"pfc\list\list.ph"
+#include @"pfc\math\math.ph"
+#include @"pfc\resourceIdentifiers.ph"
+#include @"pfc\std\std.ph"
+#include @"pfc\stream\stream.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\vpi\vpiCommonDialogs\vpiCommonDialogs.ph"
+#include @"pfc\vpi\vpiDomains\vpiDomains.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"game_PACKAGE\askGameSize.pro"
+#include @"game_PACKAGE\tttGame.pro"
+
