@@ -8,5 +8,5 @@
  
  The 9x projects may not compile unmodified using VIP 8x, but 8x projects should compile using 9x if you follow the IDE prompts.
  
- 2020-04-01 Added annotated version of TicTacToeN for VIP 8x.
+ 2020-04-01: Added annotated version of TicTacToeN for VIP 8x.
  
