@@ -1,0 +1,6 @@
+﻿Application name: TicTackToeN
+What: Play TicTacToe with a board size of your choosing
+How to win:  Place your markers in a row, column or diagonal line.
+The number of contiguous markers to win is
+Board size = 3   Need 3 contiguous markers
+Board size > 3   Need N-1 contiguous markers where N = board size (across or down)

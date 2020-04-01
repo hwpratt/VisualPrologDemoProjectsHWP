@@ -1,10 +1,8 @@
 ﻿% own pack
-#include @"pack_GAME\pack_GAME.ph"
+#include @"game_PACKAGE\game_PACKAGE.ph"
 
 % privately used packages
-#include @"pfc\com\comSupport\comSupport.ph"
 #include @"pfc\collection\M\array2M\array2M.ph"
-#include @"pfc\collection\M\varM\varM.ph"
 #include @"pfc\core.ph"
 #include @"pfc\exception\exception.ph"
 #include @"pfc\gui\controls\button\button.ph"
@@ -28,4 +26,6 @@
 % private classes
 
 % implementations
+#include @"game_PACKAGE\askGameSize.pro"
+#include @"game_PACKAGE\tttGame.pro"
 
