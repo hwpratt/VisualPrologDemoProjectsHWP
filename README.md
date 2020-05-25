@@ -10,3 +10,5 @@
  
  2020-04-01: Added annotated version of TicTacToeN for VIP 8x.
  
+ 2020-05-25: Uploaded Game Of Life (GOL) for VIP 9x.
+ 
