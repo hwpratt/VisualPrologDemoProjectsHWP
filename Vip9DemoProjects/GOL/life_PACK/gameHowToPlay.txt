@@ -1,0 +1,16 @@
+﻿How to 'play' the Game of Life
+
+Actually, you cannot 'play' this game in the traditional sense of a game.
+
+What you do is create patterns of cells by clicking on a grid of empty cells
+and the computer will create some new cells and delete some other cells
+in accordance with the simple rules of the game.
+
+A colored cell is considered to be 'alive', and an uncolored one is 'dead.'
+Clicking on a cell it will toggle its state between 'dead' and 'alive.'
+
+HOT KEYS           ACTIONS
+Ctrl-G             Open the Game window
+Alt-X              Close the game window
+Ctrl-R             Show the game Rules
+Ctrl-H             Show How to play the game

@@ -1,0 +1,13 @@
+﻿GAME PLAYING HINTS:
+
+Left-Click      Place or remove a marker (toggles between "alive" and "dead").
+Right-Click     Open dialog to place certain named patterns or a random cluster of live cells.
+                    Note: you can add live cells while the game is in progress.
+
+F9          Start the game using a 100 cycle limit
+                or Resume the game after the pre-set number of moves are exhausted or Esc has been pressed
+Shift-F9    Start the game using a 1,000,000 cycle limit
+Esc         Pause the game
+
+F10         Save the live cells to a database file to load and play later
+F11         Load a saved live cell pattern.  Press F9 to run after the display updates.

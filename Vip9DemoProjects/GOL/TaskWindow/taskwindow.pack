@@ -1,0 +1,27 @@
+﻿% own pack
+#include @"TaskWindow\TaskWindow.ph"
+
+% privately used packages
+#include @"aboutDialog\aboutDialog.ph"
+#include @"life_PACK\life_PACK.ph"
+#include @"pfc\application\Exe\exe.ph"
+#include @"pfc\core.ph"
+#include @"pfc\gui\applicationWindow\applicationWindow.ph"
+#include @"pfc\gui\controls\messageControl\messageControl.ph"
+#include @"pfc\gui\documentWindow\documentWindow.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\resourceIdentifiers.ph"
+#include @"pfc\stream\stream.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\vpi\vpiDomains\vpiDomains.ph"
+#include @"pfc\vpi\vpiToolbar\vpiToolbar.ph"
+#include @"pfc\windowsApi\Shell_api\Shell_api.ph"
+#include @"TaskWindow\Toolbars\Toolbars.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"TaskWindow\TaskWindow.pro"
+

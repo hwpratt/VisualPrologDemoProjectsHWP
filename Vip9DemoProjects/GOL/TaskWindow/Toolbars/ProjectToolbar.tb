@@ -1,0 +1,21 @@
+﻿
+clauses
+main_extframe("idt_35").
+tmpSL("idt_35",s("AKO",0,13,el([e("tbar","PROJECT.FKB")]),n,sl([]),0,0,0)).
+tmpSL("idt_35",s("ftb",1,1,st("ftb(tb_top,12632256,[])"),d,sl([]),0,12,2)).
+tmpSL("idt_35",s("pref",0,1,st("idt"),m("pu",""),sl([]),0,0,1)).
+tmpSL("idt_35",s("name",0,1,st("ProjectToolbar"),m("cr","class"),sl([]),3,0,1)).
+tmpSL("idt_35",s("hndlr",0,1,n,m("cr","pref"),sl([]),0,0,1)).
+tmpSL("idt_35",s("rct",0,1,st("rct(542,193,1158,253)"),m("pu",""),sl([]),0,0,1)).
+tmpSL("idt_35",s("mod",0,1,st("TaskWindow\\Toolbars\\ProjectToolbar.pro"),m("pu",""),sl([]),0,0,1)).
+tmpSL("idt_35",s("expattr",0,1,st("expattr4(1,0,0,0,2,2)"),m("pu",""),sl([]),0,0,1)).
+tmpSL("idt_35",s("upd_dt",0,1,st("09:03:25-16.5.2020"),d,sl([]),0,9,1)).
+tmpSL("idt_35",s("efile",0,1,st("TaskWindow\\Toolbars\\ProjectToolbar.tb"),n,st("1"),0,0,1)).
+tbItem(tb_fctrl(1,"id_file_exit",pushb,"ExitApplication32","UndoBitmap","UndoBitmap","Exit;Exit application",1,1)).
+tbItem(separator).
+tbItem(tb_fctrl(5,"idt_5",pushb,"blank_Medium","Rules32","Rules32","",0,1)).
+tbItem(tb_fctrl(2,"id_game_open_game_window",pushb,"NewGame32","UndoBitmap","UndoBitmap","Open the game window;Open the game window",1,1)).
+tbItem(tb_fctrl(6,"idt_6",pushb,"blank_Medium","Rules32","Rules32","",0,1)).
+tbItem(tb_fctrl(4,"id_game_show_how_to_play",pushb,"HowToPlay32","UndoBitmap","UndoBitmap","Show how to play;Show how to play this game in the Messages window",1,1)).
+tbItem(tb_fctrl(7,"idt_7",pushb,"blank_Medium","Rules32","Rules32","",0,1)).
+tbItem(tb_fctrl(3,"id_game_show_game_rules",pushb,"Rules32","UndoBitmap","UndoBitmap","Display game rules;Display game rules in Messages window",1,1)).

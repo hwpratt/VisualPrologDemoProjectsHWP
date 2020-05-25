@@ -1,0 +1,69 @@
+﻿
+clauses
+main_extframe("{A8F649C8-AA22-4A76-88F0-86684E36DE20}").
+tmpSL("{A8F649C8-AA22-4A76-88F0-86684E36DE20}",s("1",0,2,f("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}"),n,n,0,0,2)).
+tmpSL("{A8F649C8-AA22-4A76-88F0-86684E36DE20}",s("AKO",0,13,el([e("menu","PROJECT.FKB")]),n,sl([]),0,0,0)).
+tmpSL("{A8F649C8-AA22-4A76-88F0-86684E36DE20}",s("name",0,1,st("gameMenu"),m("cr","class"),sl([]),2,0,1)).
+tmpSL("{A8F649C8-AA22-4A76-88F0-86684E36DE20}",s("const",0,1,st("id_gameMenu"),d,sl([]),6,15,2)).
+tmpSL("{A8F649C8-AA22-4A76-88F0-86684E36DE20}",s("dis",0,5,n,m("pu",""),sl([]),0,0,1)).
+tmpSL("{A8F649C8-AA22-4A76-88F0-86684E36DE20}",s("pref",0,1,n,m("pu",""),sl([]),0,0,1)).
+tmpSL("{A8F649C8-AA22-4A76-88F0-86684E36DE20}",s("upd_dt",0,1,st("11:36:21-15.5.2020"),d,sl([]),0,9,1)).
+tmpSL("{A8F649C8-AA22-4A76-88F0-86684E36DE20}",s("efile",0,1,st("life_PACK\\gameMenu.mnu"),m("pu",""),st("0"),0,0,1)).
+tmpSL("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}",s("OWN",0,12,e("{A8F649C8-AA22-4A76-88F0-86684E36DE20}","1"),n,n,0,0,0)).
+tmpSL("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}",s("3",0,2,f("{5DF4AE28-4F6B-4226-90D4-B03643989FFD}"),n,n,0,0,2)).
+tmpSL("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}",s("11",0,2,f("{B4A5B572-01BF-4503-B790-5E56E60FEFE1}"),n,n,0,0,2)).
+tmpSL("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}",s("4",0,2,n,n,n,0,0,2)).
+tmpSL("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}",s("5",0,2,f("{9E2B98DC-36F7-415E-A447-ABA0E93160D9}"),n,n,0,0,2)).
+tmpSL("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}",s("6",0,2,f("{90BDFCFA-1358-4BE8-A652-8E1CB7D94B4E}"),n,n,0,0,2)).
+tmpSL("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}",s("2",0,2,f("{F81BEF3E-768A-47CB-B5F9-7D18E49A3472}"),n,n,0,0,2)).
+tmpSL("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}",s("8",0,2,n,n,n,0,0,2)).
+tmpSL("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}",s("7",0,2,f("{7EB175FC-0A0F-47FB-8DF1-E0C34171DC71}"),n,n,0,0,2)).
+tmpSL("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}",s("9",0,2,n,n,n,0,0,2)).
+tmpSL("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}",s("1",0,2,f("{D9B20609-A577-4459-9403-D6A53ACB4B51}"),n,n,0,0,2)).
+tmpSL("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}",s("AKO",0,13,el([e("m_item","PROJECT.FKB")]),n,sl([]),0,0,0)).
+tmpSL("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}",s("title",0,1,st("Game"),d,sl([]),2,16,1)).
+tmpSL("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}",s("const",0,1,st("id_game"),m("pu",""),sl([]),6,0,2)).
+tmpSL("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}",s("att",0,1,st("item_attr(0,0,0,\"\",0,0,0)"),m("pu",""),sl([]),0,0,1)).
+tmpSL("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}",s("pref",0,1,st("id_game"),m("su",""),sl([]),0,0,1)).
+tmpSL("{5DF4AE28-4F6B-4226-90D4-B03643989FFD}",s("OWN",0,12,e("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}","3"),n,n,0,0,0)).
+tmpSL("{5DF4AE28-4F6B-4226-90D4-B03643989FFD}",s("AKO",0,13,el([e("m_item","PROJECT.FKB")]),n,sl([]),0,0,0)).
+tmpSL("{5DF4AE28-4F6B-4226-90D4-B03643989FFD}",s("title",0,1,st("Start &game (100 cycles)\\tF9"),d,sl([]),2,16,1)).
+tmpSL("{5DF4AE28-4F6B-4226-90D4-B03643989FFD}",s("const",0,1,st("id_game_start_game"),m("pu",""),sl([]),6,0,2)).
+tmpSL("{5DF4AE28-4F6B-4226-90D4-B03643989FFD}",s("att",0,1,st("item_attr(0,0,0,\"F9\",0,0,0)"),m("pu",""),sl([]),0,0,1)).
+tmpSL("{5DF4AE28-4F6B-4226-90D4-B03643989FFD}",s("pref",0,1,st("id_game_start_game"),m("su",""),sl([]),0,0,1)).
+tmpSL("{B4A5B572-01BF-4503-B790-5E56E60FEFE1}",s("OWN",0,12,e("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}","11"),n,n,0,0,0)).
+tmpSL("{B4A5B572-01BF-4503-B790-5E56E60FEFE1}",s("AKO",0,13,el([e("m_item","PROJECT.FKB")]),n,sl([]),0,0,0)).
+tmpSL("{B4A5B572-01BF-4503-B790-5E56E60FEFE1}",s("title",0,1,st("Start game (1 Million cycles)\\tShift-F9"),d,sl([]),2,16,1)).
+tmpSL("{B4A5B572-01BF-4503-B790-5E56E60FEFE1}",s("const",0,1,st("id_game_start_game_1_million_cycles"),m("pu",""),sl([]),6,0,2)).
+tmpSL("{B4A5B572-01BF-4503-B790-5E56E60FEFE1}",s("att",0,1,st("item_attr(0,0,0,\"F9\",1,0,0)"),m("pu",""),sl([]),0,0,1)).
+tmpSL("{B4A5B572-01BF-4503-B790-5E56E60FEFE1}",s("pref",0,1,st("id_game_start_game_1_million_cycles"),m("su",""),sl([]),0,0,1)).
+tmpSL("{9E2B98DC-36F7-415E-A447-ABA0E93160D9}",s("OWN",0,12,e("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}","5"),n,n,0,0,0)).
+tmpSL("{9E2B98DC-36F7-415E-A447-ABA0E93160D9}",s("AKO",0,13,el([e("m_item","PROJECT.FKB")]),n,sl([]),0,0,0)).
+tmpSL("{9E2B98DC-36F7-415E-A447-ABA0E93160D9}",s("title",0,1,st("&Save cells\\tF10"),d,sl([]),2,16,1)).
+tmpSL("{9E2B98DC-36F7-415E-A447-ABA0E93160D9}",s("const",0,1,st("id_game_save_cells"),m("pu",""),sl([]),6,0,2)).
+tmpSL("{9E2B98DC-36F7-415E-A447-ABA0E93160D9}",s("att",0,1,st("item_attr(0,0,0,\"F10\",0,0,0)"),m("pu",""),sl([]),0,0,1)).
+tmpSL("{9E2B98DC-36F7-415E-A447-ABA0E93160D9}",s("pref",0,1,st("id_game_save_cells"),m("su",""),sl([]),0,0,1)).
+tmpSL("{90BDFCFA-1358-4BE8-A652-8E1CB7D94B4E}",s("OWN",0,12,e("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}","6"),n,n,0,0,0)).
+tmpSL("{90BDFCFA-1358-4BE8-A652-8E1CB7D94B4E}",s("AKO",0,13,el([e("m_item","PROJECT.FKB")]),n,sl([]),0,0,0)).
+tmpSL("{90BDFCFA-1358-4BE8-A652-8E1CB7D94B4E}",s("title",0,1,st("&Load cells\\tF11"),d,sl([]),2,16,1)).
+tmpSL("{90BDFCFA-1358-4BE8-A652-8E1CB7D94B4E}",s("const",0,1,st("id_game_load_cells"),m("pu",""),sl([]),6,0,2)).
+tmpSL("{90BDFCFA-1358-4BE8-A652-8E1CB7D94B4E}",s("att",0,1,st("item_attr(0,0,0,\"F11\",0,0,0)"),m("pu",""),sl([]),0,0,1)).
+tmpSL("{90BDFCFA-1358-4BE8-A652-8E1CB7D94B4E}",s("pref",0,1,st("id_game_load_cells"),m("su",""),sl([]),0,0,1)).
+tmpSL("{F81BEF3E-768A-47CB-B5F9-7D18E49A3472}",s("OWN",0,12,e("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}","2"),n,n,0,0,0)).
+tmpSL("{F81BEF3E-768A-47CB-B5F9-7D18E49A3472}",s("AKO",0,13,el([e("m_item","PROJECT.FKB")]),n,sl([]),0,0,0)).
+tmpSL("{F81BEF3E-768A-47CB-B5F9-7D18E49A3472}",s("title",0,1,st("&Kill all cells\\tF12"),d,sl([]),2,16,1)).
+tmpSL("{F81BEF3E-768A-47CB-B5F9-7D18E49A3472}",s("const",0,1,st("id_game_kill_all_cells"),m("pu",""),sl([]),6,0,2)).
+tmpSL("{F81BEF3E-768A-47CB-B5F9-7D18E49A3472}",s("att",0,1,st("item_attr(0,0,0,\"\",0,0,0)"),m("pu",""),sl([]),0,0,1)).
+tmpSL("{F81BEF3E-768A-47CB-B5F9-7D18E49A3472}",s("pref",0,1,st("id_game_kill_all_cells"),m("su",""),sl([]),0,0,1)).
+tmpSL("{7EB175FC-0A0F-47FB-8DF1-E0C34171DC71}",s("OWN",0,12,e("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}","7"),n,n,0,0,0)).
+tmpSL("{7EB175FC-0A0F-47FB-8DF1-E0C34171DC71}",s("AKO",0,13,el([e("m_item","PROJECT.FKB")]),n,sl([]),0,0,0)).
+tmpSL("{7EB175FC-0A0F-47FB-8DF1-E0C34171DC71}",s("title",0,1,st("Set delay interval"),d,sl([]),2,16,1)).
+tmpSL("{7EB175FC-0A0F-47FB-8DF1-E0C34171DC71}",s("const",0,1,st("id_game_set_delay_interval"),m("pu",""),sl([]),6,0,2)).
+tmpSL("{7EB175FC-0A0F-47FB-8DF1-E0C34171DC71}",s("att",0,1,st("item_attr(0,0,1,\"\",0,0,0)"),m("pu",""),sl([]),0,0,1)).
+tmpSL("{7EB175FC-0A0F-47FB-8DF1-E0C34171DC71}",s("pref",0,1,st("id_game_set_delay_interval"),m("su",""),sl([]),0,0,1)).
+tmpSL("{D9B20609-A577-4459-9403-D6A53ACB4B51}",s("OWN",0,12,e("{92DF7EF1-EB42-4473-93F6-9FB756F3045E}","1"),n,n,0,0,0)).
+tmpSL("{D9B20609-A577-4459-9403-D6A53ACB4B51}",s("AKO",0,13,el([e("m_item","PROJECT.FKB")]),n,sl([]),0,0,0)).
+tmpSL("{D9B20609-A577-4459-9403-D6A53ACB4B51}",s("title",0,1,st("Close\\tAlt-X"),d,sl([]),2,16,1)).
+tmpSL("{D9B20609-A577-4459-9403-D6A53ACB4B51}",s("const",0,1,st("id_game_close"),m("pu",""),sl([]),6,0,2)).
+tmpSL("{D9B20609-A577-4459-9403-D6A53ACB4B51}",s("att",0,1,st("item_attr(0,0,0,\"X\",0,0,1)"),m("pu",""),sl([]),0,0,1)).
+tmpSL("{D9B20609-A577-4459-9403-D6A53ACB4B51}",s("pref",0,1,st("id_game_close"),m("su",""),sl([]),0,0,1)).
